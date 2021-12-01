@@ -1,0 +1,430 @@
+/*Variables*/
+:root{
+	--teal: #1DB9C3;
+	--purple: #3c055f;
+	--purple2: #B983FF;
+	--purple3: #ECA3F5;
+	--blue:  #7267CB;
+	--main-family: 'Raleway', sans-serif;
+}
+
+/*General styles*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: var(--main-family);	
+	font-size: 17px;
+}
+.main-title{
+	font-size: 2.5em;
+}
+.text-center{
+	text-align: center;
+}
+.icon-key{
+	font-size: 2em;
+}
+.icon-key-2{
+	font-size: 2em;
+	color:  gray;
+	border-radius: 50%;
+	padding: 25px;
+	border: 1px solid gray;
+}
+.teal-color{
+	color: var(--teal);
+}
+.container-back-white{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	height: auto;
+	padding: 50px;
+}
+.container-back-purple{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	height: 90vh;
+	color:  white;
+	background-color: var(--purple);
+}
+
+
+/*SECTION 1*/
+.container-one {
+	display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	color:  white;
+	background-color: var(--purple);
+	height: 10vh;
+	padding: 20px;
+}
+
+
+/*Section 2*/
+.container-two{
+	
+}
+.container-two .section-info-2{
+	width: 50%;
+	margin-left: 5%;
+	padding: 50px;
+}
+.container-two .section-image-2{
+	width: 50%;
+	margin-right: 5%;
+}
+
+.container-two .section-info-2 button{
+	background-color: var(--teal);
+	padding: 10px 40px;
+	border-radius: 20px;
+	color:  white;
+	border:  none;
+	transition: all;
+	transition-duration: .5s;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.container-two .section-info-2 button:hover{
+	background-color: var(--blue);
+	cursor:  pointer;
+}
+
+
+/*Section 3*/
+.container-three{
+	width: 100%;
+	height: 100vh;
+}
+.container-three .section-img-3{
+	width: 50%;
+	padding: 0 10px;
+
+}
+.container-three .container-section-img-3{
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: white;
+}
+.container-multimedia{
+	display: flex;
+	justify-content: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.card-1{
+	background-color: var(--teal);
+	height: 195px;
+	width: 49%;
+
+}
+.card-2{
+	background-color: var(--purple2);
+	height: 195px;
+	width: 49%;
+}
+.card-3{
+	background-color: var(--blue);
+	height: 195px;
+	width: 49%;
+}
+.card-4{
+	background-color: var(--purple3);
+	height: 195px;
+	width: 49%;
+}
+
+
+
+/*Section 4*/
+.container-four{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	color:  white;
+	background-color: var(--purple);
+	padding: 50px;
+	align-items:  center;
+}
+
+.container-four .section-image-4{
+	width: 60%;
+}
+
+.container-four .section-info-4{
+	width: 40%;
+	padding: 25px;
+}
+.container-four .section-info-4 a{
+	color:  white;
+}
+
+
+
+
+/*Section 5*/
+.container-five{
+	
+
+}
+.container-five .section-info-5 {
+	width: 50%;
+	margin-left: 5%;
+	padding: 50px;
+}
+.container-five .section-image-5{
+	width: 50%;
+	margin-right: 5%;
+}
+
+.container-five .section-info-5 button{
+	background-color: var(--teal);
+	padding: 10px 40px;
+	border-radius: 20px;
+	color:  white;
+	border:  none;
+	transition: all;
+	transition-duration: .5s;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.container-five .section-info-5 button:hover{
+	background-color: var(--blue);
+	cursor:  pointer;
+}
+
+
+/*Section 6*/
+.container-six{
+	
+}
+.container-six .section-image-6{
+	width: 50%;	
+}
+
+.container-six .section-info-6{
+	width: 50%;
+	padding: 50px;
+}
+
+.container-six .section-info-6 button{
+	background-color: var(--teal);
+	padding: 10px 40px;
+	border-radius: 20px;
+	color:  white;
+	border:  none;
+	transition: all;
+	transition-duration: .5s;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.container-six .section-info-6 button:hover{
+	background-color: var(--blue);
+	cursor:  pointer;
+}
+
+
+/*Section Footer*/
+.container-seven{
+	width: 100%;
+	height: 90vh;
+	color:  white;
+	background-color: var(--purple);
+	padding: 100px;
+}
+.cards-f{
+	display: flex;
+	justify-content: space-around;
+}
+.card-footer{
+	background-color: white;
+	color: black;
+	width: 30%;
+	height: auto;
+	padding: 50px;
+}
+
+
+
+
+/*Mobile breakpoints*/
+@media (max-width: 768px) {
+	
+	/*General styles*/
+	.container-back-white{
+		width: 100%;
+		display: block;
+		height: auto;
+	}
+
+
+
+	/*Section 2*/
+	.container-two{
+		height: auto;
+	}
+	.container-back-purple{
+		display: block;
+		text-align: center;
+	}
+	.container-two .section-info-2{
+		width: 100%;
+		margin-left: 0;
+		padding: 5px;
+	}
+	.container-two .section-info-2 h1{
+		margin-top: 50px;
+	}
+	.container-two .section-image-2{
+		width: 100%;
+		margin-right: 0;
+	}
+	.container-two .section-image-2 img{
+		width: 100%;
+		margin: 0;
+	}
+
+
+	/*Section 3*/
+	.container-three{
+		width: 100%;
+		height: auto;
+	}
+	.container-three .section-img-3{
+		width: 100%;
+		padding: 0 10px;
+
+	}
+	.container-multimedia{
+		display: block;
+	}
+	.container-three .container-section-img-3{
+		width: 100%;
+	}
+	.card-1{
+		background-color: var(--teal);
+		height: 195px;
+		width: 50%;
+
+	}
+	.card-2{
+		background-color: var(--purple2);
+		height: 195px;
+		width: 50%;
+	}
+	.card-3{
+		background-color: var(--blue);
+		height: 195px;
+		width: 50%;
+	}
+	.card-4{
+		background-color: var(--purple3);
+		height: 195px;
+		width: 50%;
+	}
+
+	/*Section four*/
+	.container-four{
+		width: 100%;
+		height: auto;
+		display: block;
+		padding: 5px;
+	}
+	.container-four .section-image-4{
+		width: 100%;
+		display: block;
+		margin:  0 auto;
+	}
+
+	.container-four .section-info-4{
+		width: 100%;
+		padding: 25px;
+		display: block;
+	}
+
+	/*Section 5*/
+	.container-five .section-info-5 {
+		width: 100%;
+		padding: 5px;
+		margin-left: 0%;
+	}
+	.container-five .section-image-5{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	/*Section 6*/
+	.container-six .section-info-6 {
+		width: 100%;
+		padding: 5px;
+		margin-left: 0%;
+	}
+	.container-six .section-image-6{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	/*Section footer*/
+	.container-seven{
+		width: 100%;
+		height: auto;
+		color:  white;
+		background-color: var(--purple);
+		padding: 5px;
+	}
+	.cards-f{
+		display: block;
+		padding: 10px;
+	}
+	.card-footer{
+		background-color: white;
+		color: black;
+		width: 100%;
+		height: auto;
+		padding: 25px;
+		margin: 5px;
+	}
+}
+
+
+/*Tablet breakpoints*/
+@media (max-width: 991px){
+	.container-seven {
+	    width: 100%;
+	    height: auto;
+	    color: white;
+	    background-color: var(--purple);
+	    padding: 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
